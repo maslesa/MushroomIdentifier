@@ -28,6 +28,8 @@ The objective is to train a multi-class image classifier that can classify mushr
 
 The dataset consists of mushroom images collected and prepared specifically for this project.
 
+🔗 **Kaggle Dataset:** [Mushroom Identifier Dataset](https://www.kaggle.com/datasets/ljubomirmaslea/mushrooms-species-images-classification)
+
 ## Dataset statistics
 
 | Property | Value |
