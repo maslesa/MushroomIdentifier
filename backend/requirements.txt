@@ -3,5 +3,7 @@ uvicorn[standard]
 python-multipart
 torch
 torchvision
-pillow
+Pillow
 numpy
+opencv-python-headless
+huggingface_hub
