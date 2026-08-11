@@ -1,37 +1,72 @@
 import base64
+import gc
 import io
 
 import cv2
 import numpy as np
 import torch
 import torch.nn.functional as F
+
 from PIL import Image
 
+
 class GradCAM:
-    def __init__(self, model, target_layer):
+    def __init__(
+        self,
+        model,
+        target_layer
+    ):
         self.model = model
         self.target_layer = target_layer
         self.activations = None
         self.gradients = None
-        self.forward_handle = target_layer.register_forward_hook(
-            self._save_activations
-        )
-        self.backward_handle = target_layer.register_full_backward_hook(
-            self._save_gradients
+
+        self.forward_handle = (
+            target_layer.register_forward_hook(
+                self._save_activations
+            )
         )
 
-    def _save_activations(self, module, input, output):
+        self.backward_handle = (
+            target_layer.register_full_backward_hook(
+                self._save_gradients
+            )
+        )
+
+    def _save_activations(
+        self,
+        module,
+        input,
+        output
+    ):
         self.activations = output
 
-    def _save_gradients(self, module, grad_input, grad_output):
+    def _save_gradients(
+        self,
+        module,
+        grad_input,
+        grad_output
+    ):
         self.gradients = grad_output[0]
 
-    def generate(self, input_tensor, target_class):
-        self.model.zero_grad()
+    def generate(
+        self,
+        input_tensor,
+        target_class
+    ):
+        self.model.zero_grad(
+            set_to_none=True
+        )
 
-        output = self.model(input_tensor)
+        output = self.model(
+            input_tensor
+        )
 
-        target = output[:, target_class]
+        target = output[
+            :,
+            target_class
+        ]
+
         target.backward()
 
         activations = self.activations
@@ -42,14 +77,38 @@ class GradCAM:
             keepdim=True
         )
 
-        cam = (weights * activations).sum(dim=1)
+        cam = (
+            weights * activations
+        ).sum(dim=1)
+
         cam = F.relu(cam)
         cam = cam.squeeze(0)
-        cam -= cam.min()
-        if cam.max() > 0:
-            cam /= cam.max()
 
-        cam = cam.detach().cpu().numpy()
+        cam -= cam.min()
+
+        maximum = cam.max()
+
+        if maximum > 0:
+            cam /= maximum
+
+        cam = (
+            cam
+            .detach()
+            .cpu()
+            .numpy()
+        )
+
+        self.model.zero_grad(
+            set_to_none=True
+        )
+
+        del output
+        del target
+        del activations
+        del gradients
+        del weights
+
+        gc.collect()
 
         return cam
 
@@ -57,14 +116,42 @@ class GradCAM:
         self.forward_handle.remove()
         self.backward_handle.remove()
 
+        self.activations = None
+        self.gradients = None
 
-def create_gradcam_image(image, cam):
-    original = np.array(image)
-    height, width = original.shape[:2]
-    cam = cv2.resize(cam, (width, height))
-    cam = np.uint8(255 * cam)
-    heatmap = cv2.applyColorMap(cam, cv2.COLORMAP_JET)
-    heatmap = cv2.cvtColor(heatmap, cv2.COLOR_BGR2RGB)
+
+def create_gradcam_image(
+    image,
+    cam
+):
+    original = np.array(
+        image
+    )
+
+    height, width = (
+        original.shape[:2]
+    )
+
+    cam = cv2.resize(
+        cam,
+        (width, height),
+        interpolation=cv2.INTER_LINEAR
+    )
+
+    cam = np.uint8(
+        255 * cam
+    )
+
+    heatmap = cv2.applyColorMap(
+        cam,
+        cv2.COLORMAP_JET
+    )
+
+    heatmap = cv2.cvtColor(
+        heatmap,
+        cv2.COLOR_BGR2RGB
+    )
+
     overlay = cv2.addWeighted(
         original,
         0.6,
@@ -76,16 +163,32 @@ def create_gradcam_image(image, cam):
     return overlay
 
 
-def image_to_base64(image_array):
-    image = Image.fromarray(image_array)
+def image_to_base64(
+    image_array
+):
+    image = Image.fromarray(
+        image_array
+    )
+
     buffer = io.BytesIO()
+
     image.save(
         buffer,
         format='JPEG',
-        quality=90
+        quality=85,
+        optimize=True
     )
+
     encoded = base64.b64encode(
         buffer.getvalue()
     ).decode('utf-8')
 
-    return f'data:image/jpeg;base64,{encoded}'
+    buffer.close()
+
+    del buffer
+    del image
+
+    return (
+        'data:image/jpeg;base64,'
+        + encoded
+    )
