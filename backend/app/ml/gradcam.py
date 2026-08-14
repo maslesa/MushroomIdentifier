@@ -9,7 +9,6 @@ import torch.nn.functional as F
 
 from PIL import Image
 
-
 class GradCAM:
     def __init__(
         self,
