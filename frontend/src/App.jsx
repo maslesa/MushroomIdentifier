@@ -3,6 +3,7 @@ import { useState } from 'react'
 import ImageUploader from './components/ImageUploader'
 import PredictionResults from './components/PredictionResults'
 import GradCAMViewer from './components/GradCAMViewer'
+import HowToUseModal from './components/HowToUseModal'
 
 import { predictMushroom } from './services/api'
 
@@ -10,6 +11,7 @@ function App() {
   const [result, setResult] = useState(null)
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState(null)
+  const [howToUseOpen, setHowToUseOpen] = useState(false)
 
   async function handlePrediction(image) {
     try {
@@ -25,7 +27,7 @@ function App() {
 
       setError(
         error.message ||
-          'Something went wrong while analyzing the image.'
+        'Something went wrong while analyzing the image.'
       )
     } finally {
       setLoading(false)
@@ -82,6 +84,15 @@ function App() {
               </a>
               .
             </p>
+
+            <button
+              type="button"
+              onClick={() => setHowToUseOpen(true)}
+              className="cursor-pointer text-sm font-bold italic text-mybg2 underline transition duration-150 hover:opacity-80 sm:text-base mt-3"
+            >
+              How it works?
+            </button>
+
           </section>
 
           <div className="flex flex-col items-center gap-8 sm:gap-10">
@@ -131,7 +142,7 @@ function App() {
       </main>
 
       <footer className="w-full bg-mybg">
-        <div className="mx-auto flex max-w-6xl flex-col items-center justify-center gap-3 px-4 py-6 text-center sm:px-6 sm:py-8 md:flex-row md:justify-between md:text-left lg:px-8">
+        <div className="mx-auto flex max-w-6xl flex-col items-center justify-center gap-4 px-4 py-6 text-center sm:px-6 sm:py-8 md:flex-row md:justify-between lg:px-8">
 
           <p className="text-sm font-bold italic text-mybg2 sm:text-base">
             Powered by{' '}
@@ -160,6 +171,11 @@ function App() {
 
         </div>
       </footer>
+
+      <HowToUseModal
+        isOpen={howToUseOpen}
+        onClose={() => setHowToUseOpen(false)}
+      />
 
     </div>
   )

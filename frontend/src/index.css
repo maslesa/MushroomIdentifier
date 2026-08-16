@@ -5,3 +5,39 @@
   --color-mybg2: #606c38;
   --color-mytxt: #283618;
 }
+
+html,
+body,
+#root {
+  min-height: 100%;
+  background-color: var(--color-mybg);
+}
+
+html {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-mybg2) var(--color-mybg);
+}
+
+body {
+  margin: 0;
+  background-color: var(--color-mybg);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-mybg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-mybg2);
+  border-radius: 9999px;
+  border: 2px solid var(--color-mybg);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-mytxt);
+}
