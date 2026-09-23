@@ -1,0 +1,766 @@
+[
+  {
+    "scientificName": "Agaricus arvensis",
+    "commonName": "Poljski šampinjon",
+    "alternativeNames": ["Konjska pečurka"],
+    "description": "Krupno plodno telo sa belim šeširom. Listići su najpre sivoružičasti, a zatim tamnosmeđi. Meso blago žuti, a miris podseća na anis ili badem. Drška ima dvostruki prsten sa zupčastim donjim rubom.",
+    "keyFeatures": [
+      "Beli šešir",
+      "Listići prelaze od sivoružičaste do tamnosmeđe boje",
+      "Meso blago žuti",
+      "Miris na anis ili badem",
+      "Dvostruki prsten sa zupčastim donjim rubom"
+    ],
+    "habitat": "Najčešće raste na livadama, pašnjacima i travnatim površinama.",
+    "safety": "Jestiva vrsta, ali identifikaciju ne treba zasnivati samo na jednoj osobini.",
+    "image": "/mushroom/agaricus-arvensis.jpg"
+  },
+  {
+    "scientificName": "Agaricus augustus",
+    "commonName": "Carski šampinjon",
+    "alternativeNames": [],
+    "description": "Veoma krupno plodno telo. Šešir je prekriven smeđim vlaknastim ljuspama na svetloj podlozi. Meso žuti na dodir i jako miriše na badem. Drška nosi širok prsten.",
+    "keyFeatures": [
+      "Veoma krupno plodno telo",
+      "Smeđe vlaknaste ljuspe na svetloj podlozi",
+      "Meso žuti na dodir",
+      "Jak miris na badem",
+      "Širok prsten na dršci"
+    ],
+    "habitat": "Raste na zemlji, često u travnatim i šumskim staništima.",
+    "safety": "Jestivost se može razlikovati u zavisnosti od izvora i uslova; ne koristiti aplikaciju kao osnovu za odluku o konzumaciji.",
+    "image": "/mushroom/agaricus-augustus.jpg"
+  },
+  {
+    "scientificName": "Agaricus campestris",
+    "commonName": "Livadski šampinjon",
+    "alternativeNames": [],
+    "description": "Šešir je beo, gladak ili sitno ljuspast. Listići rano postaju jarkoružičasti, a zatim čokoladnosmeđi. Meso na preseku blago ružičasti. Drška ima tanak prsten, bez volve.",
+    "keyFeatures": [
+      "Beli šešir",
+      "Jarkoružičasti pa čokoladnosmeđi listići",
+      "Meso blago ružičasti",
+      "Tanak prsten",
+      "Nema volvu"
+    ],
+    "habitat": "Najčešće raste na livadama i pašnjacima.",
+    "safety": "Jestiva vrsta, ali je moguća zamena sa drugim vrstama roda Agaricus.",
+    "image": "/mushroom/agaricus-campestris.jpg"
+  },
+  {
+    "scientificName": "Agaricus xanthodermus",
+    "commonName": "Otrovni šampinjon",
+    "alternativeNames": [],
+    "description": "Belo plodno telo koje na dodir naglo postaje hrom-žuto, naročito u osnovi drške. Neprijatan miris na fenol, mastilo ili dezinfekciono sredstvo pojačava se kuvanjem.",
+    "keyFeatures": [
+      "Belo plodno telo",
+      "Naglo hrom-žuto bojenje pri dodiru",
+      "Posebno izraženo žutilo u osnovi drške",
+      "Miris na fenol, mastilo ili dezinfekciono sredstvo"
+    ],
+    "habitat": "Može rasti na travnatim površinama, u parkovima i drugim otvorenim staništima.",
+    "safety": "OTROVNA VRSTA.",
+    "image": "/mushroom/agaricus-xanthodermus.jpg"
+  },
+  {
+    "scientificName": "Amanita caesarea",
+    "commonName": "Kneginja",
+    "alternativeNames": ["Jajčara", "Blagva"],
+    "description": "Narandžastocrven šešir sa prugastim rubom. Listići, drška i prsten su zlatnožuti. U osnovi drške nalazi se velika bela vrećasta volva. Mlado plodno telo potpuno je zatvoreno u beli opšti ovoj.",
+    "keyFeatures": [
+      "Narandžastocrven šešir",
+      "Prugast rub šešira",
+      "Zlatnožuti listići, drška i prsten",
+      "Velika bela vrećasta volva",
+      "Mlado plodno telo zatvoreno u beli ovoj"
+    ],
+    "habitat": "Najčešće raste u toplijim listopadnim šumama.",
+    "safety": "Jestiva vrsta prema navedenim karakteristikama, ali pripada rodu Amanita i zahteva veoma pouzdanu identifikaciju.",
+    "image": "/mushroom/amanita-caesarea.jpg"
+  },
+  {
+    "scientificName": "Amanita citrina",
+    "commonName": "Limunasta pupavka",
+    "alternativeNames": [],
+    "description": "Bledožut do zelenkastožut šešir, često sa beličastim krpicama. Listići i drška su beli. Osnova drške je zadebljala, sa obrubljenom volvom. Karakterističan je miris na sirov krompir.",
+    "keyFeatures": [
+      "Bledožut do zelenkastožut šešir",
+      "Beličaste krpice",
+      "Beli listići i drška",
+      "Zadebljala osnova drške",
+      "Obrubljena volva",
+      "Miris na sirov krompir"
+    ],
+    "habitat": "Najčešće raste u listopadnim i četinarskim šumama.",
+    "safety": "OTROVNA VRSTA.",
+    "image": "/mushroom/amanita-citrina.jpg"
+  },
+  {
+    "scientificName": "Amanita excelsa",
+    "commonName": "Siva muhara",
+    "alternativeNames": [],
+    "description": "Sivosmeđ šešir sa sivim bradavicama; rub uglavnom nije prugast. Drška ima prsten i zadebljanu osnovu, bez jasno odvojene vrećaste volve. Meso ne crveni ili crveni veoma slabo.",
+    "keyFeatures": [
+      "Sivosmeđ šešir",
+      "Sive bradavice",
+      "Rub uglavnom nije prugast",
+      "Prsten na dršci",
+      "Zadebljala osnova bez jasno odvojene vrećaste volve",
+      "Meso ne crveni ili crveni veoma slabo"
+    ],
+    "habitat": "Raste u šumama, naročito na zemlji.",
+    "safety": "Ne koristiti aplikaciju za određivanje jestivosti.",
+    "image": "/mushroom/amanita-excelsa.jpg"
+  },
+  {
+    "scientificName": "Amanita muscaria",
+    "commonName": "Muhara",
+    "alternativeNames": [],
+    "description": "Jarkocrven do narandžast šešir sa belim bradavicama. Listići i drška su beli. Drška nosi viseći prsten, a u osnovi je lukovičasto zadebljana sa koncentričnim ostacima volve.",
+    "keyFeatures": [
+      "Jarkocrven do narandžast šešir",
+      "Bele bradavice",
+      "Beli listići i drška",
+      "Viseći prsten",
+      "Lukovičasta osnova",
+      "Ostaci volve"
+    ],
+    "habitat": "Raste u listopadnim i četinarskim šumama.",
+    "safety": "OTROVNA VRSTA.",
+    "image": "/mushroom/amanita-muscaria.jpg"
+  },
+  {
+    "scientificName": "Amanita pantherina",
+    "commonName": "Panterova muhara",
+    "alternativeNames": [],
+    "description": "Smeđ šešir sa pravilnim belim bradavicama i izrazito prugastim rubom. Prsten je gladak, a osnova drške lukovičasta, sa jasno obrubljenim ostacima volve. Meso ostaje belo.",
+    "keyFeatures": [
+      "Smeđ šešir",
+      "Pravilne bele bradavice",
+      "Izrazito prugast rub",
+      "Gladak prsten",
+      "Lukovičasta osnova drške",
+      "Obrubljeni ostaci volve"
+    ],
+    "habitat": "Raste u šumama, često na različitim tipovima zemljišta.",
+    "safety": "OTROVNA VRSTA.",
+    "image": "/mushroom/amanita-pantherina.jpg"
+  },
+  {
+    "scientificName": "Amanita phalloides",
+    "commonName": "Zelena pupavka",
+    "alternativeNames": [],
+    "description": "Maslinastozelen, žućkast ili smeđezelen šešir. Listići, prsten i drška su beli. U osnovi drške nalazi se velika bela vrećasta volva.",
+    "keyFeatures": [
+      "Maslinastozelen do smeđezelen šešir",
+      "Beli listići",
+      "Beli prsten i drška",
+      "Velika bela vrećasta volva"
+    ],
+    "habitat": "Najčešće raste u listopadnim šumama.",
+    "safety": "SMRTNO OTROVNA VRSTA.",
+    "image": "/mushroom/amanita-phalloides.jpg"
+  },
+  {
+    "scientificName": "Amanita rubescens",
+    "commonName": "Biserka",
+    "alternativeNames": ["Crvenkasta muhara"],
+    "description": "Smeđkast šešir sa sivoružičastim bradavicama. Meso na povredama i u hodnicima larvi crveni. Prsten je sa gornje strane uzdužno izbrazdan, a osnova drške nema jasno obrubljenu volvu.",
+    "keyFeatures": [
+      "Smeđkast šešir",
+      "Sivoružičaste bradavice",
+      "Meso crveni na povredama",
+      "Uzdužno izbrazdan prsten",
+      "Nema jasno obrubljenu volvu"
+    ],
+    "habitat": "Česta je u različitim tipovima šuma.",
+    "safety": "Neophodna je pravilna identifikacija; ne koristiti aplikaciju kao osnovu za odluku o konzumaciji.",
+    "image": "/mushroom/amanita-rubescens.jpg"
+  },
+  {
+    "scientificName": "Amanita virosa",
+    "commonName": "Bela pupavka",
+    "alternativeNames": ["Smrdljiva pupavka"],
+    "description": "Potpuno belo i vitko plodno telo, sa često nepravilnim zvonastim šeširom. Listići su beli; drška ima viseći prsten i veliku vrećastu volvu u osnovi.",
+    "keyFeatures": [
+      "Potpuno belo plodno telo",
+      "Vitka drška",
+      "Nepravilan zvonast šešir",
+      "Beli listići",
+      "Viseći prsten",
+      "Velika vrećasta volva"
+    ],
+    "habitat": "Najčešće raste u šumama.",
+    "safety": "SMRTNO OTROVNA VRSTA.",
+    "image": "/mushroom/amanita-virosa.jpg"
+  },
+  {
+    "scientificName": "Armillaria mellea",
+    "commonName": "Medenjača",
+    "alternativeNames": ["Puza"],
+    "description": "Raste u gustim busenovima na drvetu ili oko korenja. Šešir je medenožut, sa sitnim tamnijim ljuspama; listići su svetli. Drška ima izražen prsten. Otisak spora je beo.",
+    "keyFeatures": [
+      "Raste u gustim busenovima",
+      "Raste na drvetu ili oko korenja",
+      "Medenožut šešir",
+      "Sitne tamnije ljuspe",
+      "Izražen prsten",
+      "Beli otisak spora"
+    ],
+    "habitat": "Na živom, oslabljenom ili mrtvom drvetu i oko korenja.",
+    "safety": "Jestivost zavisi od pravilne identifikacije i pripreme; ne koristiti aplikaciju kao osnovu za odluku o konzumaciji.",
+    "image": "/mushroom/armillaria-mellea.jpg"
+  },
+  {
+    "scientificName": "Boletus aereus",
+    "commonName": "Crni vrganj",
+    "alternativeNames": [],
+    "description": "Krupno plodno telo sa tamnosmeđim, gotovo crnim i baršunastim šeširom. Cevčice su najpre bele, zatim žutozelene. Debela drška ima svetlu mrežicu, uglavnom u gornjem delu. Meso ostaje belo.",
+    "keyFeatures": [
+      "Tamnosmeđ do gotovo crn šešir",
+      "Baršunasta površina",
+      "Bele pa žutozelene cevčice",
+      "Debela drška",
+      "Svetla mrežica na gornjem delu drške",
+      "Meso ostaje belo"
+    ],
+    "habitat": "Najčešće raste u listopadnim šumama, naročito uz hrastove.",
+    "safety": "Jestiva vrsta, ali identifikaciju treba potvrditi stručnim poznavanjem vrste.",
+    "image": "/mushroom/boletus-aereus.jpg"
+  },
+  {
+    "scientificName": "Boletus edulis",
+    "commonName": "Pravi vrganj",
+    "alternativeNames": ["Jesenji vrganj"],
+    "description": "Smeđ šešir sa svetlijim rubom, često blago lepljiv. Cevčice su bele, zatim maslinastožute. Gornji deo drške prekriven je belom mrežicom. Meso ne plavi.",
+    "keyFeatures": [
+      "Smeđ šešir sa svetlijim rubom",
+      "Blago lepljiva površina",
+      "Bele pa maslinastožute cevčice",
+      "Bela mrežica na gornjem delu drške",
+      "Meso ne plavi"
+    ],
+    "habitat": "Raste u različitim šumama, u mikorizi sa drvećem.",
+    "safety": "Jestiva vrsta, ali aplikacija nije zamena za stručnu identifikaciju.",
+    "image": "/mushroom/boletus-edulis.jpg"
+  },
+  {
+    "scientificName": "Boletus pinophilus",
+    "commonName": "Borov vrganj",
+    "alternativeNames": ["Crveni vrganj"],
+    "description": "Krupno plodno telo sa crvenkastosmeđim do kestenjastim šeširom. Drška je zdepasta, često crvenkastosmeđa i prekrivena mrežicom. Meso ostaje belo.",
+    "keyFeatures": [
+      "Crvenkastosmeđ do kestenjast šešir",
+      "Zdepasta drška",
+      "Crvenkastosmeđa drška",
+      "Mrežica na dršci",
+      "Meso ostaje belo"
+    ],
+    "habitat": "Raste uz bukve i četinare.",
+    "safety": "Jestiva vrsta, uz potrebu za pouzdanom identifikacijom.",
+    "image": "/mushroom/boletus-pinophilus.jpg"
+  },
+  {
+    "scientificName": "Boletus reticulatus",
+    "commonName": "Mrežasti vrganj",
+    "alternativeNames": ["Letnji vrganj"],
+    "description": "Svetlosmeđ, suv i često ispucao šešir. Drška je gotovo celom dužinom prekrivena izraženom svetlom mrežicom. Cevčice su najpre bele, a meso ne plavi.",
+    "keyFeatures": [
+      "Svetlosmeđ suv šešir",
+      "Često ispucala površina",
+      "Izražena svetla mrežica",
+      "Mrežica pokriva gotovo celu dršku",
+      "Bele cevčice",
+      "Meso ne plavi"
+    ],
+    "habitat": "Najčešće u toplijim listopadnim šumama.",
+    "safety": "Jestiva vrsta uz pouzdanu identifikaciju.",
+    "image": "/mushroom/boletus-reticulatus.jpg"
+  },
+  {
+    "scientificName": "Cantharellus cibarius",
+    "commonName": "Lisičarka",
+    "alternativeNames": [],
+    "description": "Žut, levkast šešir talasastog ruba. Umesto pravih listića ima debele, račvaste nabore koji se spuštaju niz dršku. Meso je čvrsto, svetlo i prijatnog voćnog mirisa.",
+    "keyFeatures": [
+      "Žut levkast šešir",
+      "Talasast rub",
+      "Debeli račvasti nabori",
+      "Nabori se spuštaju niz dršku",
+      "Čvrsto meso",
+      "Voćni miris"
+    ],
+    "habitat": "Raste na zemlji u šumama, često u grupama.",
+    "safety": "Jestiva vrsta uz pouzdanu identifikaciju.",
+    "image": "/mushroom/cantharellus-cibarius.jpg"
+  },
+  {
+    "scientificName": "Cantharellus pallens",
+    "commonName": "Bleda lisičarka",
+    "alternativeNames": [],
+    "description": "Krupnije plodno telo sa beličastim do bledožutim šeširom. Površina često žuti ili rđa na dodir. Bledožuti nabori spuštaju se niz dršku; meso je čvrsto.",
+    "keyFeatures": [
+      "Beličast do bledožut šešir",
+      "Površina može žuteti ili rđati na dodir",
+      "Bledožuti nabori",
+      "Nabori se spuštaju niz dršku",
+      "Čvrsto meso"
+    ],
+    "habitat": "Raste na zemlji u šumskim staništima.",
+    "safety": "Ne koristiti aplikaciju kao osnovu za odluku o konzumaciji.",
+    "image": "/mushroom/cantharellus-pallens.jpg"
+  },
+  {
+    "scientificName": "Chlorophyllum rhacodes",
+    "commonName": "Kuštrava sunčanica",
+    "alternativeNames": [],
+    "description": "Krupno plodno telo sa svetlim šeširom prekrivenim debelim smeđim ljuspama. Meso na preseku brzo postaje narandžastocrveno, zatim smeđe. Drška nema zmijsku šaru i nosi pokretan prsten.",
+    "keyFeatures": [
+      "Svetao šešir",
+      "Debele smeđe ljuspe",
+      "Meso brzo postaje narandžastocrveno",
+      "Meso kasnije postaje smeđe",
+      "Drška nema zmijsku šaru",
+      "Pokretan prsten"
+    ],
+    "habitat": "Raste na zemlji u travnatim i šumskim staništima.",
+    "safety": "OTROVNA VRSTA.",
+    "image": "/mushroom/chlorophyllum-rhacodes.jpg"
+  },
+  {
+    "scientificName": "Coprinopsis atramentaria",
+    "commonName": "Sivi jarčić",
+    "alternativeNames": [],
+    "description": "Siv do sivkastosmeđ, uzdužno naboran šešir. Plodna tela često rastu u busenovima uz zakopano drvo. Listići crne i razlivaju se u mastiljastu masu.",
+    "keyFeatures": [
+      "Siv do sivkastosmeđ šešir",
+      "Uzdužno naborana površina",
+      "Raste u busenovima",
+      "Često uz zakopano drvo",
+      "Listići crne",
+      "Listići se pretvaraju u mastiljastu masu"
+    ],
+    "habitat": "Često raste uz zakopano ili truleće drvo.",
+    "safety": "U kombinaciji sa alkoholom izaziva trovanje.",
+    "image": "/mushroom/coprinopsis-atramentaria.jpg"
+  },
+  {
+    "scientificName": "Coprinus comatus",
+    "commonName": "Beli jarčić",
+    "alternativeNames": [],
+    "description": "Izdužen, cilindričan beli šešir prekriven čupavim ljuspama, sa smeđim vrhom. Listići prelaze iz belih u ružičaste i crne, a zatim se rastapaju.",
+    "keyFeatures": [
+      "Izdužen cilindričan šešir",
+      "Bela boja",
+      "Čupave ljuspe",
+      "Smeđ vrh",
+      "Listići prelaze iz belih u ružičaste i crne",
+      "Listići se rastapaju"
+    ],
+    "habitat": "Česta je na travnjacima i poremećenom zemljištu.",
+    "safety": "Ne koristiti aplikaciju kao osnovu za odluku o konzumaciji.",
+    "image": "/mushroom/coprinus-comatus.jpg"
+  },
+  {
+    "scientificName": "Craterellus cornucopioides",
+    "commonName": "Crna truba",
+    "alternativeNames": ["Mrtvačka truba"],
+    "description": "Tamnosivo do crno, duboko levkasto i šuplje plodno telo. Spoljašnja plodna površina je glatka do blago naborana i pepeljastosiva. Nema prave listiće.",
+    "keyFeatures": [
+      "Tamnosiva do crna boja",
+      "Duboko levkasto telo",
+      "Šuplje plodno telo",
+      "Glatka do blago naborana površina",
+      "Nema prave listiće"
+    ],
+    "habitat": "Raste na zemlji u šumama, često na vlažnim mestima.",
+    "safety": "Jestiva vrsta uz pouzdanu identifikaciju.",
+    "image": "/mushroom/craterellus-cornucopioides.jpg"
+  },
+  {
+    "scientificName": "Craterellus tubaeformis",
+    "commonName": "Trubasta lisičarka",
+    "alternativeNames": [],
+    "description": "Malo plodno telo sa žutosmeđim levkastim šeširom, šuplje do osnove. Donja strana ima sive račvaste nabore, dok je drška žuta do narandžasta.",
+    "keyFeatures": [
+      "Malo plodno telo",
+      "Žutosmeđ levkast šešir",
+      "Šuplje do osnove",
+      "Sivi račvasti nabori",
+      "Žuta do narandžasta drška"
+    ],
+    "habitat": "Raste grupno u vlažnim mahovinskim šumama.",
+    "safety": "Jestiva vrsta uz pouzdanu identifikaciju.",
+    "image": "/mushroom/craterellus-tubaeformis.jpg"
+  },
+  {
+    "scientificName": "Fomes fomentarius",
+    "commonName": "Trud",
+    "alternativeNames": ["Bukova guba"],
+    "description": "Višegodišnje, tvrdo i kopitasto plodno telo na deblima. Gornja površina je siva i koncentrično zonirana, a donja ima sitne okrugle pore.",
+    "keyFeatures": [
+      "Višegodišnje plodno telo",
+      "Tvrdo i kopitasto",
+      "Siva koncentrično zonirana površina",
+      "Sitne okrugle pore",
+      "Raste na deblima"
+    ],
+    "habitat": "Najčešće raste na bukvi.",
+    "safety": "Nije vrsta koja se uobičajeno koristi kao jestiva gljiva.",
+    "image": "/mushroom/fomes-fomentarius.jpg"
+  },
+  {
+    "scientificName": "Gyromitra esculenta",
+    "commonName": "Hrčak",
+    "alternativeNames": [],
+    "description": "Nepravilan i jako naboran crvenosmeđ šešir, nalik mozgu. Drška je svetla, kratka i nepravilna, a unutrašnjost plodnog tela podeljena na više komora.",
+    "keyFeatures": [
+      "Jako naboran šešir",
+      "Izgled nalik mozgu",
+      "Crvenosmeđa boja",
+      "Kratka nepravilna drška",
+      "Unutrašnjost podeljena na više komora"
+    ],
+    "habitat": "Raste na zemlji u šumskim i sličnim staništima.",
+    "safety": "VEOMA OTROVNA I POTENCIJALNO SMRTONOSNA VRSTA.",
+    "image": "/mushroom/gyromitra-esculenta.jpg"
+  },
+  {
+    "scientificName": "Hericium erinaceus",
+    "commonName": "Lavlja griva",
+    "alternativeNames": ["Resasti igličar"],
+    "description": "Belo do kremasto, loptasto plodno telo sa brojnim dugim visećim bodljama. Raste na starim ili oštećenim listopadnim stablima. Starenjem postaje žućkasto do smeđe.",
+    "keyFeatures": [
+      "Belo do kremasto plodno telo",
+      "Loptast oblik",
+      "Brojne duge viseće bodlje",
+      "Raste na listopadnom drveću",
+      "Starenjem žuti do smeđi"
+    ],
+    "habitat": "Na starim ili oštećenim listopadnim stablima.",
+    "safety": "Jestiva vrsta uz pouzdanu identifikaciju.",
+    "image": "/mushroom/hericium-erinaceus.jpg"
+  },
+  {
+    "scientificName": "Hydnum repandum",
+    "commonName": "Prosenjak",
+    "alternativeNames": ["Žuta ježevica"],
+    "description": "Kremast do bledonarandžast, nepravilan šešir. Donja strana prekrivena je lomljivim bodljama koje se spuštaju niz dršku. Meso je čvrsto, a kod starijih plodnih tela može biti gorkasto.",
+    "keyFeatures": [
+      "Kremast do bledonarandžast šešir",
+      "Nepravilan oblik",
+      "Lomljive bodlje",
+      "Bodlje se spuštaju niz dršku",
+      "Čvrsto meso"
+    ],
+    "habitat": "Raste na zemlji u šumama.",
+    "safety": "Jestiva vrsta uz pouzdanu identifikaciju.",
+    "image": "/mushroom/hydnum-repandum.jpg"
+  },
+  {
+    "scientificName": "Lactarius deliciosus",
+    "commonName": "Rujnica",
+    "alternativeNames": [],
+    "description": "Narandžast šešir sa jasno izraženim koncentričnim zonama i udubljenim središtem. Luči narandžasto mleko, a povređena mesta vremenom zelene.",
+    "keyFeatures": [
+      "Narandžast šešir",
+      "Koncentrične zone",
+      "Udubljeno središte",
+      "Narandžasto mleko",
+      "Povređena mesta vremenom zelene"
+    ],
+    "habitat": "Najčešće raste uz borove.",
+    "safety": "Jestiva vrsta uz pouzdanu identifikaciju.",
+    "image": "/mushroom/lactarius-deliciosus.jpg"
+  },
+  {
+    "scientificName": "Lactarius deterrimus",
+    "commonName": "Smrekina rujnica",
+    "alternativeNames": [],
+    "description": "Narandžast i slabije zoniran šešir koji brzo dobija zelene mrlje. Narandžasto mleko posle izvesnog vremena postaje vinskocrveno.",
+    "keyFeatures": [
+      "Narandžast šešir",
+      "Slabije izražene zone",
+      "Brzo dobija zelene mrlje",
+      "Narandžasto mleko",
+      "Mleko postaje vinskocrveno"
+    ],
+    "habitat": "Najčešće raste uz smrču.",
+    "safety": "Jestiva vrsta uz pouzdanu identifikaciju.",
+    "image": "/mushroom/lactarius-deterrimus.jpg"
+  },
+  {
+    "scientificName": "Lactarius turpis",
+    "commonName": "Prljava mlečnica",
+    "alternativeNames": ["Maslinastosmeđa mlečnica"],
+    "description": "Maslinastosmeđ i lepljiv šešir sa jako podvijenim, vunastim rubom. Listići su prljavobeli i tamne na dodir. Mleko je belo, a meso izrazito ljuto.",
+    "keyFeatures": [
+      "Maslinastosmeđ šešir",
+      "Lepljiva površina",
+      "Jako podvijen vunast rub",
+      "Prljavobeli listići",
+      "Listići tamne na dodir",
+      "Belo mleko"
+    ],
+    "habitat": "Raste u šumama i vlažnim staništima.",
+    "safety": "Ne smatra se jestivom vrstom.",
+    "image": "/mushroom/lactarius-turpis.jpg"
+  },
+  {
+    "scientificName": "Lactifluus volemus",
+    "commonName": "Presnac",
+    "alternativeNames": [],
+    "description": "Narandžastosmeđ, suv i često ispucao šešir. Plodno telo obilno luči belo mleko koje smeđi i ima miris na ribu ili rakove. Listići na povredama postaju smeđi.",
+    "keyFeatures": [
+      "Narandžastosmeđ šešir",
+      "Suva i često ispucala površina",
+      "Obilno belo mleko",
+      "Mleko smeđi",
+      "Miris na ribu ili rakove",
+      "Listići smeđe na povredama"
+    ],
+    "habitat": "Raste na zemlji u šumskim staništima.",
+    "safety": "Jestiva vrsta uz pouzdanu identifikaciju.",
+    "image": "/mushroom/lactifluus-volemus.jpg"
+  },
+  {
+    "scientificName": "Macrolepiota mastoidea",
+    "commonName": "Sisasta sunčanica",
+    "alternativeNames": [],
+    "description": "Svetao i tanji šešir sa izrazito šiljastom centralnom grbicom i sitnim ljuspama. Vitka drška ima sitnu zmijsku šaru i pokretan prsten.",
+    "keyFeatures": [
+      "Svetao tanak šešir",
+      "Izrazito šiljasta centralna grbica",
+      "Sitne ljuspe",
+      "Vitka drška",
+      "Zmijska šara",
+      "Pokretan prsten"
+    ],
+    "habitat": "Raste na travnatim i šumskim staništima.",
+    "safety": "Ne koristiti aplikaciju kao osnovu za odluku o konzumaciji.",
+    "image": "/mushroom/macrolepiota-mastoidea.jpg"
+  },
+  {
+    "scientificName": "Macrolepiota procera",
+    "commonName": "Sunčanica",
+    "alternativeNames": [],
+    "description": "Veoma krupno plodno telo sa šeširom prekrivenim širokim smeđim ljuspama i tamnim centralnim ispupčenjem. Visoka drška ima karakterističnu zmijsku šaru i dvostruki pokretni prsten. Meso ne crveni.",
+    "keyFeatures": [
+      "Veoma krupno plodno telo",
+      "Široke smeđe ljuspe",
+      "Tamno centralno ispupčenje",
+      "Visoka drška",
+      "Zmijska šara",
+      "Dvostruki pokretni prsten",
+      "Meso ne crveni"
+    ],
+    "habitat": "Raste na travnjacima, proplancima i rubovima šuma.",
+    "safety": "Jestiva vrsta uz pouzdanu identifikaciju.",
+    "image": "/mushroom/macrolepiota-procera.jpg"
+  },
+  {
+    "scientificName": "Morchella esculenta",
+    "commonName": "Žuti smrčak",
+    "alternativeNames": [],
+    "description": "Šešir ima saćasta udubljenja i rebra, a boja mu je žućkasta do smeđa. Šešir je srastao sa drškom. Celo plodno telo uzdužno je šuplje i ima jednu jedinstvenu šupljinu.",
+    "keyFeatures": [
+      "Saćasta udubljenja",
+      "Rebra na šeširu",
+      "Žućkasta do smeđa boja",
+      "Šešir srastao sa drškom",
+      "Celo plodno telo je šuplje",
+      "Jedna jedinstvena unutrašnja šupljina"
+    ],
+    "habitat": "Raste na zemlji u različitim šumskim i drugim staništima.",
+    "safety": "Jestiva nakon odgovarajuće termičke obrade, ali identifikacija mora biti pouzdana.",
+    "image": "/mushroom/morchella-esculenta.jpg"
+  },
+  {
+    "scientificName": "Pleurotus ostreatus",
+    "commonName": "Bukovača",
+    "alternativeNames": [],
+    "description": "Lepezast ili školjkast siv šešir; plodna tela najčešće rastu u preklopljenim grupama na drvetu. Beli listići duboko se spuštaju niz kratku bočnu dršku. Otisak spora je bledoljubičastosiv.",
+    "keyFeatures": [
+      "Lepezast ili školjkast šešir",
+      "Siva boja",
+      "Raste u preklopljenim grupama",
+      "Raste na drvetu",
+      "Beli listići",
+      "Kratka bočna drška"
+    ],
+    "habitat": "Najčešće na mrtvom ili oslabljenom drvetu.",
+    "safety": "Jestiva vrsta uz pouzdanu identifikaciju.",
+    "image": "/mushroom/pleurotus-ostreatus.jpg"
+  },
+  {
+    "scientificName": "Rubroboletus satanas",
+    "commonName": "Ludara",
+    "alternativeNames": [],
+    "description": "Veoma krupno plodno telo sa bledim, beličastosivim šeširom. Pore su crvene, a drška zdepasta, žutocrvena i prekrivena mrežicom. Meso na preseku umereno plavi; starija plodna tela neprijatno mirišu.",
+    "keyFeatures": [
+      "Veoma krupno plodno telo",
+      "Beličastosiv šešir",
+      "Crvene pore",
+      "Zdepasta žutocrvena drška",
+      "Mrežica na dršci",
+      "Meso plavi na preseku",
+      "Neprijatan miris kod starijih primeraka"
+    ],
+    "habitat": "Raste u toplijim listopadnim šumama.",
+    "safety": "OTROVNA VRSTA.",
+    "image": "/mushroom/rubroboletus-satanas.jpg"
+  },
+  {
+    "scientificName": "Russula cyanoxantha",
+    "commonName": "Modrozelena zeka",
+    "alternativeNames": [],
+    "description": "Šešir je promenljive boje: ljubičast, zelenkast, plavkast ili mešovit. Listići su beli, savitljivi i masni na dodir, pa se ne lome lako. Meso je blagog ukusa, a otisak spora beo.",
+    "keyFeatures": [
+      "Ljubičast, zelenkast ili plavkast šešir",
+      "Beli listići",
+      "Savitljivi listići",
+      "Masni listići",
+      "Listići se ne lome lako",
+      "Beli otisak spora"
+    ],
+    "habitat": "Raste na zemlji u različitim tipovima šuma.",
+    "safety": "Jestiva vrsta uz pouzdanu identifikaciju.",
+    "image": "/mushroom/russula-cyanoxantha.jpg"
+  },
+  {
+    "scientificName": "Russula emetica",
+    "commonName": "Bljuvara",
+    "alternativeNames": [],
+    "description": "Jarkocrven, gladak i sjajan šešir sa lako odvojivom pokožicom. Listići i drška su beli, a meso izrazito ljutog ukusa.",
+    "keyFeatures": [
+      "Jarkocrven šešir",
+      "Gladak i sjajan",
+      "Lako odvojiva pokožica",
+      "Beli listići",
+      "Bela drška",
+      "Izrazito ljut ukus mesa"
+    ],
+    "habitat": "Najčešće raste na vlažnim i kiselim staništima.",
+    "safety": "OTROVNA VRSTA.",
+    "image": "/mushroom/russula-emetica.jpg"
+  },
+  {
+    "scientificName": "Russula ochroleuca",
+    "commonName": "Okerasta zeka",
+    "alternativeNames": [],
+    "description": "Okeržut šešir, često sa tamnijim središtem. Listići su bledi i krti, a drška bela, kasnije sivkasta. Meso je blago do umereno ljutog ukusa.",
+    "keyFeatures": [
+      "Okeržut šešir",
+      "Tamnije središte",
+      "Bledi i krti listići",
+      "Bela drška",
+      "Drška kasnije sivkasta"
+    ],
+    "habitat": "Raste na zemlji u šumama.",
+    "safety": "Ne koristiti aplikaciju kao osnovu za odluku o konzumaciji.",
+    "image": "/mushroom/russula-ochroleuca.jpg"
+  },
+  {
+    "scientificName": "Russula vesca",
+    "commonName": "Rana zeka",
+    "alternativeNames": [],
+    "description": "Ružičastosmeđ do mesnocrven šešir. Pokožica često ne doseže rub, pa krajevi listića ostaju vidljivi. Meso je belo i blagog ukusa; listići često dobijaju rđaste mrlje.",
+    "keyFeatures": [
+      "Ružičastosmeđ do mesnocrven šešir",
+      "Pokožica ne doseže uvek rub",
+      "Krajevi listića ostaju vidljivi",
+      "Belo meso",
+      "Blag ukus",
+      "Rđaste mrlje na listićima"
+    ],
+    "habitat": "Raste na zemlji u šumama.",
+    "safety": "Jestiva vrsta uz pouzdanu identifikaciju.",
+    "image": "/mushroom/russula-vesca.jpg"
+  },
+  {
+    "scientificName": "Suillellus luridus",
+    "commonName": "Kovara",
+    "alternativeNames": [],
+    "description": "Maslinastosmeđ šešir; pore su narandžastocrvene do crvene. Drška je žuta i prekrivena izraženom crvenkastom mrežicom. Meso snažno plavi na preseku.",
+    "keyFeatures": [
+      "Maslinastosmeđ šešir",
+      "Narandžastocrvene do crvene pore",
+      "Žuta drška",
+      "Crvenkasta mrežica",
+      "Meso snažno plavi na preseku",
+      "Crvenkast sloj ispod cevčica"
+    ],
+    "habitat": "Najčešće raste u listopadnim šumama.",
+    "safety": "Ne koristiti aplikaciju kao osnovu za odluku o konzumaciji.",
+    "image": "/mushroom/suillellus-luridus.jpg"
+  },
+  {
+    "scientificName": "Suillus luteus",
+    "commonName": "Borovnjača",
+    "alternativeNames": [],
+    "description": "Smeđ i veoma sluzav šešir sa žutim cevčicama i porama. Drška ima izražen prsten; iznad njega je žuta, a ispod smeđkasta ili tačkasta.",
+    "keyFeatures": [
+      "Smeđ šešir",
+      "Veoma sluzava površina",
+      "Žute cevčice i pore",
+      "Izražen prsten",
+      "Žuta drška iznad prstena",
+      "Smeđkasta ili tačkasta drška ispod prstena"
+    ],
+    "habitat": "Raste uz borove.",
+    "safety": "Jestiva vrsta uz pouzdanu identifikaciju.",
+    "image": "/mushroom/suillus-luteus.jpg"
+  },
+  {
+    "scientificName": "Trametes versicolor",
+    "commonName": "Ćuranov rep",
+    "alternativeNames": [],
+    "description": "Tanka, kožasta i lepezasta plodna tela rastu u preklopljenim grupama. Gornja površina je baršunasta, sa brojnim koncentričnim zonama različitih boja. Donja strana je bela i ima veoma sitne pore.",
+    "keyFeatures": [
+      "Tanka kožasta plodna tela",
+      "Lepezast oblik",
+      "Preklopljene grupe",
+      "Baršunasta površina",
+      "Brojne koncentrične zone",
+      "Bela donja strana",
+      "Veoma sitne pore"
+    ],
+    "habitat": "Najčešće raste na mrtvom drvetu.",
+    "safety": "Nije vrsta koja se uobičajeno koristi kao jestiva gljiva.",
+    "image": "/mushroom/trametes-versicolor.jpg"
+  },
+  {
+    "scientificName": "Tylopilus felleus",
+    "commonName": "Žučara",
+    "alternativeNames": [],
+    "description": "Podseća na prave vrganje, ali pore sazrevanjem postaju ružičaste. Drška ima krupnu tamnosmeđu mrežicu. Meso je izrazito gorko i ne plavi.",
+    "keyFeatures": [
+      "Podseća na vrganje",
+      "Pore postaju ružičaste",
+      "Krupna tamnosmeđa mrežica",
+      "Izrazito gorko meso",
+      "Meso ne plavi"
+    ],
+    "habitat": "Raste na zemlji u šumskim staništima.",
+    "safety": "Nije jestiva zbog izrazito gorkog ukusa.",
+    "image": "/mushroom/tylopilus-felleus.jpg"
+  },
+  {
+    "scientificName": "Xerocomellus chrysenteron",
+    "commonName": "Zlatača",
+    "alternativeNames": [],
+    "description": "Suv, smeđ do maslinastosmeđ šešir koji puca i otkriva crvenkasto meso. Pore su žute i na pritisak postaju zelenoplave. Drška je žuta, obično sa crvenkastim vlaknima ili nijansama.",
+    "keyFeatures": [
+      "Suv smeđ do maslinastosmeđ šešir",
+      "Ispucala površina",
+      "Crvenkasto meso ispod ispucale površine",
+      "Žute pore",
+      "Pore zelenoplave na pritisak",
+      "Žuta drška",
+      "Crvenkasta vlakna ili nijanse"
+    ],
+    "habitat": "Raste na zemlji u šumama i drugim staništima.",
+    "safety": "Ne koristiti aplikaciju kao osnovu za odluku o konzumaciji.",
+    "image": "/mushroom/xerocomellus-chrysenteron.jpg"
+  }
+]
