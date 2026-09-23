@@ -112,7 +112,7 @@ function App() {
                 <div className="mx-auto mb-3 h-8 w-8 animate-spin rounded-full border-4 border-gray-200 border-t-mybg2" />
 
                 <p className="text-sm text-gray-500">
-                  Analyzing mushroom...
+                  Analiziranje pečurke...
                 </p>
               </div>
             )}

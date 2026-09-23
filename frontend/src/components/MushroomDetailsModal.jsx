@@ -50,7 +50,7 @@ export default function MushroomDetailsModal({
 
                         {mushroom.alternativeNames?.length > 0 && (
                             <p className="mt-1 text-xs text-mybg2 sm:text-sm">
-                                Also known as:{' '}
+                                Takođe poznata kao:{' '}
                                 {mushroom.alternativeNames.join(', ')}
                             </p>
                         )}
