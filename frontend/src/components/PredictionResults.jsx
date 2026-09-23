@@ -30,7 +30,7 @@ export default function PredictionResults({ predictions }) {
     <>
       <div className="w-full max-w-xl">
         <h2 className="mb-4 text-xl font-bold text-mytxt sm:text-2xl">
-          Predictions
+          Predikcije
         </h2>
 
         <div className="space-y-3">
@@ -76,7 +76,7 @@ export default function PredictionResults({ predictions }) {
                 </div>
 
                 <p className="mt-2 text-xs italic text-mybg2">
-                  Click to learn more
+                  Klikni za više informacija
                 </p>
               </button>
             )

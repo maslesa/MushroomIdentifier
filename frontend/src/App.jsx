@@ -62,25 +62,24 @@ function App() {
 
           <section className="mb-8 text-center sm:mb-12">
             <h2 className="mb-3 text-3xl font-bold leading-tight text-mytxt sm:mb-4 sm:text-4xl">
-              Identify a Mushroom
+              Identifikuj vrstu pečurke
             </h2>
 
             <p className="mx-auto max-w-2xl text-sm leading-6 text-mybg2 sm:text-base sm:leading-7">
-              Upload a photo of a mushroom and our model will predict
-              its species and show you which parts of the image
-              influenced the prediction.
+              Otpremi fotografiju pečurke, a naš model će predvideti njenu vrstu 
+              i pokazati ti koji su delovi slike uticali na to predviđanje.
             </p>
 
             <p className="mx-auto mt-2 max-w-2xl text-sm leading-6 text-mybg2 sm:text-base sm:leading-7">
-              If you don't have a photo of mushroom, you can download
-              it from{' '}
+              Ako nemaš fotografiju pečurke, možeš je preuzeti 
+              sa{' '}
               <a
                 target="_blank"
                 rel="noopener noreferrer"
                 href="https://www.kaggle.com/datasets/ljubomirmaslea/mushrooms-species-images-classification"
                 className="inline-flex items-center gap-1 italic underline transition duration-150 hover:opacity-80"
               >
-                Kaggle test directory
+                Kaggle test direktorijuma
               </a>
               .
             </p>
@@ -90,7 +89,7 @@ function App() {
               onClick={() => setHowToUseOpen(true)}
               className="cursor-pointer text-sm font-bold italic text-mybg2 underline transition duration-150 hover:opacity-80 sm:text-base mt-3"
             >
-              How it works?
+              Kako ovo radi?
             </button>
 
           </section>

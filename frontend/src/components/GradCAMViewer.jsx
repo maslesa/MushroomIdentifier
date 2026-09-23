@@ -6,7 +6,7 @@ export default function GradCAMViewer({ image }) {
   return (
     <div className="w-full max-w-xl">
       <h2 className="mb-4 text-xl font-bold text-mytxt sm:text-2xl">
-        Model Attention
+        Gde model gleda?
       </h2>
 
       <div className="overflow-hidden rounded-2xl border border-mytxt bg-mybg shadow-sm">
@@ -25,8 +25,8 @@ export default function GradCAMViewer({ image }) {
 
         <div className="p-4 sm:p-5">
           <p className="text-sm leading-6 text-mytxt italic">
-            The Grad-CAM visualization shows the regions of the image
-            that contributed most strongly to the model's prediction.
+            Grad-CAM vizuelizacija prikazuje regione slike koji 
+            su najviše doprineli predviđanju modela.
           </p>
         </div>
 

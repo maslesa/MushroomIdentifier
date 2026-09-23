@@ -91,11 +91,11 @@ export default function ImageUploader({ onPrediction, loading }) {
             </div>
 
             <h2 className="text-lg font-bold text-mytxt sm:text-xl">
-              Upload a mushroom image
+              Otpremi fotografiju pečurke
             </h2>
 
             <p className="mx-auto mb-5 max-w-sm text-sm leading-6 text-mybg2 sm:mb-6">
-              Choose an existing photo or take a picture of a mushroom.
+              Izaberi postojeću fotografiju ili snimi fotografiju pečurke.
             </p>
 
             <input
@@ -123,7 +123,7 @@ export default function ImageUploader({ onPrediction, loading }) {
                   onClick={() => cameraInputRef.current?.click()}
                   className="inline-flex w-full cursor-pointer items-center justify-center rounded-xl bg-mybg2 px-5 py-3 text-sm font-medium text-white transition duration-150 hover:opacity-80 sm:w-auto sm:px-6 sm:text-base"
                 >
-                  Take a photo
+                  Snimi fotografiju
                 </button>
 
                 <button
@@ -131,7 +131,7 @@ export default function ImageUploader({ onPrediction, loading }) {
                   onClick={() => galleryInputRef.current?.click()}
                   className="inline-flex w-full cursor-pointer items-center justify-center rounded-xl border-2 border-mybg2 px-5 py-3 text-sm font-medium text-mybg2 transition duration-150 hover:opacity-80 sm:w-auto sm:px-6 sm:text-base"
                 >
-                  Choose from gallery
+                  Izaberi fotografiju
                 </button>
 
               </div>
@@ -141,7 +141,7 @@ export default function ImageUploader({ onPrediction, loading }) {
                 onClick={() => galleryInputRef.current?.click()}
                 className="inline-flex w-full max-w-xs cursor-pointer items-center justify-center rounded-xl bg-mybg2 px-5 py-3 text-sm font-medium text-white transition duration-150 hover:opacity-80 sm:w-auto sm:px-6 sm:text-base"
               >
-                Choose image
+                Izaberi fotografiju
               </button>
             )}
           </>
@@ -163,7 +163,7 @@ export default function ImageUploader({ onPrediction, loading }) {
                 disabled={loading}
                 className="w-full cursor-pointer rounded-xl bg-mybg2 px-5 py-3 text-sm font-medium text-white transition duration-150 hover:opacity-80 disabled:cursor-not-allowed disabled:opacity-50 sm:w-auto sm:px-6 sm:text-base"
               >
-                {loading ? 'Analyzing...' : 'Identify Mushroom'}
+                {loading ? 'Analiziranje...' : 'Identifikuj pečurku'}
               </button>
 
               <button
@@ -172,7 +172,7 @@ export default function ImageUploader({ onPrediction, loading }) {
                 disabled={loading}
                 className="w-full cursor-pointer rounded-xl border-2 border-mybg2 px-5 py-3 text-sm font-medium text-mybg2 transition duration-150 hover:opacity-80 disabled:cursor-not-allowed disabled:opacity-50 sm:w-auto sm:px-6 sm:text-base"
               >
-                Change
+                Promeni fotografiju
               </button>
 
             </div>

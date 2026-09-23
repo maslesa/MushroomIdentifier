@@ -78,15 +78,11 @@ export default function MushroomDetailsModal({
                                     className="aspect-square w-full object-cover"
                                 />
                             </div>
-
-                            <p className="mt-2 text-center text-xs italic text-mybg2">
-                                Representative image
-                            </p>
                         </div>
 
                         <div>
                             <h3 className="mb-2 text-lg font-bold text-mytxt">
-                                Description
+                                Opis
                             </h3>
 
                             <p className="text-sm leading-6 text-mybg2">
@@ -95,7 +91,7 @@ export default function MushroomDetailsModal({
 
                             <div className="mt-5">
                                 <h3 className="mb-3 text-lg font-bold text-mytxt">
-                                    Key features
+                                    Ključne karakteristike
                                 </h3>
 
                                 <ul className="">
@@ -118,7 +114,7 @@ export default function MushroomDetailsModal({
 
                         <div className="rounded-xl border border-mytxt/40 p-4">
                             <h3 className="mb-2 font-bold text-mytxt">
-                                Habitat
+                                Stanište
                             </h3>
 
                             <p className="text-sm leading-6 text-mybg2">
@@ -128,7 +124,7 @@ export default function MushroomDetailsModal({
 
                         <div className="rounded-xl border border-mytxt/40 p-4">
                             <h3 className="mb-2 font-bold text-mytxt">
-                                Safety information
+                                Informacije o bezbednosti
                             </h3>
 
                             <p className="text-sm font-semibold leading-6 text-red-600">
@@ -140,10 +136,10 @@ export default function MushroomDetailsModal({
 
                     <div className="mt-6 rounded-xl border border-red-200 bg-red-50 p-4">
                         <p className="text-sm font-semibold leading-6 text-red-600">
-                            ⚠️ This information is provided for educational
-                            purposes. Never consume a mushroom based solely
-                            on an AI prediction or information shown in this
-                            application.
+                            ⚠️ Ove informacije su namenjene u edukativne svrhe. 
+                            Nikada ne konzumirajte gljivu isključivo na osnovu 
+                            predviđanja veštačke inteligencije ili informacija prikazanih 
+                            u ovoj aplikaciji.
                         </p>
                     </div>
 
